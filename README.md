@@ -27,17 +27,20 @@ import domain_extract
 url = "https://fayas.me/"
 
 print(domain_extract.domain(url))
+# => fayas.me
 ```
-Response :- `fayas.me`
 
 ### Extract domains from urls list
 
 ```py
-urls = ["https://fayas.me", "https://github.com/FayasNoushad"]
+urls = [
+    "https://fayas.me",
+    "https://github.com/FayasNoushad"
+]
 
 print(domain_extract.domains(urls))
+# => ["fayas.me", "github.com"]
 ```
-Response :- `["fayas.me", "github.com"]`
 
 ### Extract domains from a string
 
@@ -45,8 +48,8 @@ Response :- `["fayas.me", "github.com"]`
 string = "Hello [Fayas](https://fayas.me/)"
 
 print(domain_extract.string_domains(string))
+# => ["fayas.me"]
 ```
-Response :- `["fayas.me"]`
 
 ---
 
