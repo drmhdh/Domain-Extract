@@ -21,7 +21,7 @@ def readme(file="README.md"):
 
 setup(
     name="Domain-Extract",
-    version="1.0.3",
+    version="1.0.4",
     author="FayasNoushad",
     long_description=README,
     long_description_content_type="text/markdown",
